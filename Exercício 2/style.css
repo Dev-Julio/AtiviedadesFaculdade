@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #222;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  border-bottom: 2px solid #f44336;
+}
+
+#logo {
+  height: 40px;
+}
+
+#menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+#menu a:hover {
+  color: #f44336;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 40px;
+}
+
+#hero-text #welcome {
+  font-size: 14px;
+  color: #1d9bf0;
+  background: #eaf6ff;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+#hero-text #titulo {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+#btn-acessar {
+  background: #1d9bf0;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn-acessar:hover {
+  background: #147dc2;
+}
+
+#hero-img img {
+  max-width: 500px;
+  width: 100%;
+}
+
+#scroll {
+  text-align: left;
+  margin-top: 40px;
+}
+
+#scroll a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1d9bf0;
+}
+
+#scroll a::before {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
